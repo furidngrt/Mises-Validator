@@ -184,25 +184,15 @@ misestmd query bank balances $MISES_WALLET_ADDRESS
 ```
 
 misestmd tx staking create-validator \
-
   --amount 1000000umis \
-
   --from $WALLET \
-
   --commission-max-change-rate "0.01" \
-
   --commission-max-rate "0.2" \
-
   --commission-rate "0.07" \
-
   --min-self-delegation "1" \
-
   --pubkey  $(misestmd tendermint show-validator) \
-
   --moniker $NODENAME \
-
   --fees 250umis \
-
   --chain-id $MISES_CHAIN_ID
 
 ```
@@ -212,19 +202,12 @@ misestmd tx staking create-validator \
 ```
 
 misestmd tx staking edit-validator \
-
   --moniker="nama-node" \
-
   --identity="<your_keybase_id>" \
-
   --website="<your_website>" \
-
   --details="<your_validator_description>" \
-
   --chain-id=$MISES_CHAIN_ID \
-
   --fees 250umis \
-
   --from=$WALLET
 
 ```
@@ -234,13 +217,9 @@ misestmd tx staking edit-validator \
 ```
 
 misestmd tx slashing unjail \
-
   --broadcast-mode=block \
-
   --from=$WALLET \
-
   --chain-id=$MISES_CHAIN_ID \
-
   --fees=250umis
 
 ```
