@@ -197,6 +197,9 @@ misestmd tx staking create-validator \
 
 ```
 
+Chceck Validator kalian disini https://gw.mises.site/validators
+
+
  * edit validator
 
 ```
