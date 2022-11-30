@@ -21,8 +21,6 @@ source $HOME/.bash_profile
 
 ### Statesync
 
-`Sebelum menggunakan cek versi nodenya !!`
-
 ```
 
 misestmd version --long
